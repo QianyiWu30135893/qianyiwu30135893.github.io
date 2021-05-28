@@ -1060,3 +1060,20 @@ table a,
     font-size: 1.6rem;
   }
 }
+
+.join-in-form-item > * {
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.join-in-form-item > * > span {
+  display: flex;
+  padding: 4px;
+  flex: 1 1 60px;
+}
+
+.join-in-form-item input {
+  border: none;
+  flex: 1 1 200px;
+  color: black;
+}
